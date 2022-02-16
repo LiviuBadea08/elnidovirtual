@@ -1,85 +1,100 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:wght@400;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/homepage.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/homepage.css" />
     <title>ElNidoVirtual</title>
-</head>
-<body>
-    <header>
-        EL NIDO VIRTUAL
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="logo">
+        <a class="main-logo" href="index.html" alt="logo"
+          ><img class="logo-img" src="./img/logo gaming.png" />
+        </a>
+      </div>
+      <nav id="nav" class="main-nav">
+        <div class="nav-links">
+          <a class="link-item" href="index.html">Home</a>
+          <a class="link-item" href="catalogo.html">Catálogo</a>
+        </div>
+      </nav>
+      <button id="button-menu" class="button-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </header>
     <main>
-        <div class="secciones">
-            <h1>
-                SOBRE NOSOTROS
-            </h1>
-            <p class="nosotros">
-                Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Rhoncus orci mi, varius aliquam nunc.
-                Viverra lectus quis hendrerit aliquam
-                auctor erat bibendum volutpat. Mauris, velit
-                aenean tortor, nulla at quam. Viverra facilisis
-                eget et enim viverra diam at.
-            </p>
+      <div class="secciones">
+        <h1>SOBRE NOSOTROS</h1>
+        <p class="nosotros">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus orci
+          mi, varius aliquam nunc. Viverra lectus quis hendrerit aliquam auctor
+          erat bibendum volutpat. Mauris, velit aenean tortor, nulla at quam.
+          Viverra facilisis eget et enim viverra diam at.
+        </p>
+      </div>
+      <div class="secciones">
+        <h3 class="titulo">Novedades</h3>
+        <div class="div-grid">
+          <!--Grid-->
+          <div class="caja-producto">
+            <!--Flex-->
+            <img src="./img/animal.png" />
+            <p class="nproducto">Animal Crossing</p>
+          </div>
+          <div class="caja-producto">
+            <!--Flex-->
+            <img src="./img/zelda.png" />
+            <p class="nproducto">Zelda: Breath of the Wild</p>
+          </div>
         </div>
-        <div class="secciones"> 
-            <h3 class="titulo">
-                Novedades
-            </h3>
-            <div class="div-grid"><!--Grid-->
-                <div class="caja-producto"><!--Flex-->
-                    <img src="./img/animal.png">
-                    <p class="nproducto">
-                        Animal Crossing
-                    </p>
-                </div>
-                <div class="caja-producto"><!--Flex-->
-                    <img src="./img/zelda.png">
-                    <p class="nproducto">
-                        Zelda: Breath of the Wild
-                    </p>
-                </div>
-            </div>
+      </div>
+      <div class="secciones">
+        <h3 class="titulo">Catálogo</h3>
+        <div class="div-grid">
+          <!-- Grid -->
+          <div class="caja-producto">
+            <!-- Flex -->
+            <img src="./img/mario_deluxe.png" />
+            <p class="nproducto">Super Mario Deluxe</p>
+            <p class="precio">39,99 €</p>
+          </div>
+          <div class="caja-producto">
+            <!-- Flex -->
+            <img src="./img/ori.png" />
+            <p class="nproducto">Ori: The Will of Whispers</p>
+            <p class="precio">24,99 €</p>
+          </div>
         </div>
-        <div class="secciones">
-            <h3 class="titulo">
-                Catálogo
-            </h3>
-            <div class="div-grid"><!-- Grid -->
-                <div class="caja-producto"><!-- Flex -->
-                    <img src="./img/mario_deluxe.png">
-                    <p class="nproducto"> 
-                        Super Mario Deluxe
-                    </p>
-                    <p class="precio">
-                        39,99 €
-                    </p>
-                </div>
-                <div class="caja-producto"><!-- Flex -->
-                    <img src="./img/ori.png">
-                    <p class="nproducto">
-                        Ori: The Will of Whispers
-                    </p>
-                    <p class="precio">
-                        24,99 €
-                    </p>
-                </div>
-            </div>
-            <div class="cata">
-            <a href="#" class="catalogo">VER CATÁLOGO</a>
-            </div>
+        <div class="cata">
+          <a href="#" class="catalogo">VER CATÁLOGO</a>
         </div>
+      </div>
     </main>
+
     <footer>
-        iconos + contacto
+      <div class="social-media">
+        <img src="./svg/instagram.svg" />
+        <img src="../svg/twitter.svg" />
+        <img src="../svg/email.svg" />
+        <img src="../svg/facebook.svg" />
+        <img src="../svg/youtube.svg" />
+      </div>
+      <div class="contact">
+        Contacto lauravazquez@infonido.com C/ Francesc Macia, 08800 Vilanova i
+        la Geltru Tlf: 685 614 974
+      </div>
     </footer>
-    
-</body>
+    <script src="./js/index.js"></script>
+  </body>
 </html>
