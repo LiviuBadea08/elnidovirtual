@@ -9,22 +9,38 @@ body{
     background-color: #0F141D;
 }
 
-p,h2 {
+p,h4 {
     color: #FFF9F9;
+    text-align: center;
 }
 
-.marioo{
+.productImage{
     width: 8rem;
     }
 
+.hollow .animal{
+    display: flex;
+    flex-direction: column;
+}
 
+.box {
+    display: flex;
+}
 
+.alignCenter{
+    display: flex;
+    justify-content: center;
+}
 
-
-
-
-
-
+h4{
+    background: #0669AF;
+    border-radius: 7px;
+    width: fit-content;
+    padding: 0.8vh 5vw;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
 
 
 
