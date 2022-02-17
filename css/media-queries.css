@@ -49,12 +49,7 @@
         font-weight: bold;
     }
     .div-productos {
-        grid-template: 50vh / repeat(4, 20vw);
-    }
-    .caja-producto {
-        flex-direction: column;
-        align-items: center;
-        height: 100%;
+        grid-template: auto / repeat(4, auto);
     }
     .catalogo {
         padding: 2.5vh;
@@ -62,8 +57,8 @@
         margin: 0;
         margin-top: 10vh;
     }
-    .nosotros {
-        padding: 0 30vw;
+    .contact {
+        padding: 0;
     }
     .nosotros h2, .contact h3 {
         font-size: 1.5em;
@@ -84,14 +79,14 @@
         justify-content: center;
     }
     .box-products {
-        grid-template: repeat(2, 35vh) / repeat(4, 15vw);
+        grid-template: repeat(2, auto) / repeat(4, auto);
         justify-content: space-around;
     }
     .catalog-img {
         height: 30vh;
     }
     .titulo {
-        font-size: 1.7em;
+        font-size: 1.2em;
         padding: 1vh 3vw;
     }
     .Producto {
@@ -111,15 +106,14 @@
         margin-bottom: 2vh;
     }
     .product-img {
-        width: 47.5vw;
-        height: 75vh;
-    }
-    .abajo {
-        font-size: 1.3em;
+        width: 50vw;
+        height: auto;
     }
     .abajo {
         justify-content: center;
+        align-items:center;
         gap: 3vw;
+        font-size: 1.3em;
     }
     label {
         font-size: 1.3em;
@@ -130,5 +124,33 @@
     .abajo button {
         order: 0;
         padding: 1vh 3vw;
+    }
+    footer {
+        display: grid;
+        background-color: rgba(22, 41, 72, 1);
+        grid-template: repeat(2, auto) / repeat(2, auto);
+        justify-content: center;
+        align-items:center;
+        padding: 7vh 4vw;
+        gap: 1vh;
+    }
+    .nosotros {
+        grid-row: 1 / span 2;
+        margin: 0;
+        padding: 0;
+        padding-right: 10vw;
+    }
+    .nosotros p {
+        margin: 0;
+        margin-top: 1.5vh;
+    }
+    .nosotros p, .nosotros h2 {
+        text-align: left;
+    }
+    .social-media {
+        justify-content: space-evenly;
+        font-size: 2.4em;
+        padding:0 ;
+        order: 1;
     }
   }

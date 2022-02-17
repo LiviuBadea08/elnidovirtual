@@ -27,16 +27,18 @@ a {
 }
 .div-novedades {
   grid-template: 1fr / repeat(2, 1fr);
+  margin-top: 1.2vh;
 }
 .div-productos {
-  grid-template: repeat(2, 1fr) / repeat(2, 1fr)
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  margin-top: 1.2vh;
 }
 
 .caja-producto {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin: 2vh 0;
+  align-items: center;
+  flex-direction: column;
 }
 
 .nproducto {
