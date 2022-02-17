@@ -157,3 +157,9 @@
   flex-direction: column;
   padding: 5vh 0;
 }
+
+#upButton{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 4vh;
+}
