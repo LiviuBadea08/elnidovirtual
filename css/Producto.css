@@ -1,26 +1,16 @@
-img {
-    width: 100%;
-    border-radius: 4px;
-}
-
-body    {
-    background-color: #0F141D;
-}
-
 .Producto    {
     display: flex;
     align-content: center;
     color:white;
     flex-direction: column;
 }
+.Producto img {
+    margin-top: 2vh;
+}
 
 p   {
     color: white;
     font-family: 'Montserrat', sans-serif;
-}
-
-main    {
-    padding: 8%;
 }
 
 .titulo  {
@@ -55,7 +45,7 @@ button  {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     color: #0669AF;
-    padding: 0.5vh 10 vw;
+    padding: 0.5vh 10vw;
     height: fit-content;
     border-radius: 4px;
 }

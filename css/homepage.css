@@ -1,48 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 a {
   text-decoration: none;
   color: #fff9f9;
 }
-
-main {
-  padding: 8%;
-}
-body {
-  background: #0f141d;
-}
 img {
-  width: 100%;
   height: 20vh;
-  border-radius: 10px;
 }
 
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  color: #fff9f9;
-}
-.secciones {
-  margin: 3vh 0;
-}
 
-.nosotros {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 17px;
-  text-align: center;
-  color: #fff9f9;
-  margin: 1.5vh;
-}
 
 .titulo {
   font-family: "Montserrat", sans-serif;
@@ -58,8 +22,14 @@ h1 {
 
 .div-grid {
   display: grid;
-  grid-template: 1fr / repeat(2, 1fr);
+  justify-content:space-between;
   gap: 3vw;
+}
+.div-novedades {
+  grid-template: 1fr / repeat(2, 1fr);
+}
+.div-productos {
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr)
 }
 
 .caja-producto {

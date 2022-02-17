@@ -7,17 +7,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/Producto.css">
     <link rel="stylesheet" href="./css/Estrellas.css">
-    <title>Document</title>
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <title>El Nido Virtual</title>
 </head>
 <body>
+    <header id="header" class="main-header">
+        <div class="logo">
+          <a class="main-logo" href="index.html" alt="logo"
+            ><img class="logo-img" src="./img/logo gaming.png" />
+            <h1 class="logo-title">El Nido Virtual</h1>
+          </a>
+        </div>
+        <nav id="nav" class="main-nav">
+          <div class="nav-links">
+            <a class="link-item" href="index.html">Home</a>
+            <a class="link-item" href="catalogue.html">Catálogo</a>
+          </div>
+        </nav>
+        <button id="button-menu" class="button-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </header>
     <main>
-        <div class="Producto">
+        <div class="Producto secciones">
             <h4 class="titulo">Producto</h4>
              <img src="./img/AnimalCrossing.jpg" alt="">
         </div>
-        <div>
+        <div class="secciones">
             <h2 class="h2">Animal Crossing</h2>
             <p>Empresa: Nintendo</p>
             <p>Fecha de lanzamiento: 23-04-2020</p>
@@ -37,18 +62,55 @@
                   --><label for="radio5">★</label>
                 </p>
               </form>
-
+        </div>
+        <div>
             <h3 class="h3">Descripción:</h3>
             <p>Tu primera residencia será una tienda de campaña que se convertirá en una casa que luego se puede ampliar, embellecer y mejorar mientras juegas. A medida que los vecinos se muden al área, puedes ayudarles con sus tiendas de campaña y casas, y si ya tienes vecinos establecidos en el área cuando llegues, te ayudarán a construir y establecer la tuya.
             </p>
-            <div class="abajo">
-                <p>49,50€</p>
-                <button>Añadir al carrito</button>
-            </div>
+            
         </div>
-
-        
+        <div class="abajo secciones">
+            <p>49,50€</p>
+            <button>Añadir al carrito</button>
+        </div>
+        <div>
+            <a href="#header" id="upButton">⬆️</a>
+          </div>
 
     </main>
+    <footer>
+        <div class="nosotros">
+          <h2>SOBRE NOSOTROS</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus orci
+            mi, varius aliquam nunc. Viverra lectus quis hendrerit aliquam auctor
+            erat bibendum volutpat. Mauris, velit aenean tortor, nulla at quam.
+            Viverra facilisis eget et enim viverra diam at.
+          </p>
+        </div>
+        <div class="social-media">
+          <a href="https://instagram.com" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank">
+            <i class="fab fa-twitter-square"></i>
+          </a>
+          <a href="mailto:lauravazquez@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://facebook.com" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+          <a href="https://youtube.com" target="_blank">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+        <div class="contact">
+          <h3>Contacto</h3>
+          <p>C/ Francesc Macia, 08800 Vilanova i la Geltru</p>
+          <p>Tlf: 685 614 974</p>
+        </div>
+      </footer>
+      <script src="./js/index.js"></script>
 </body>
 </html>

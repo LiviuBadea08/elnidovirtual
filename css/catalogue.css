@@ -1,22 +1,16 @@
-*{
-margin: 0;
-padding: 8px;
-font-family: 'Montserrat', sans-serif;
-font-size: 400;
-}
-
-body{
-    background-color: #0F141D;
-}
-
 p,h4 {
     color: #FFF9F9;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 400;
+}
+img {
+    height: 20vh;
 }
 
 .productImage{
     width: 8rem;
-    }
+}
 
 .hollow .animal{
     display: flex;
@@ -24,7 +18,16 @@ p,h4 {
 }
 
 .box {
-    display: flex;
+    display: grid;
+    justify-content: center;
+    gap: 3vw;
+    margin-top: 2vh;
+}
+.box-novedades {
+    grid-template: 1fr / repeat(2, 1fr);
+}
+.box-products {
+    grid-template: repeat(4, 1fr) / repeat(2, 1fr)
 }
 
 .alignCenter{
@@ -38,7 +41,6 @@ h4{
     width: fit-content;
     padding: 0.8vh 5vw;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 }
 
