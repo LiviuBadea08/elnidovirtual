@@ -35,7 +35,7 @@ img {
     justify-content: center;
 }
 
-h4{
+.catalog-title {
     background: #0669AF;
     border-radius: 7px;
     width: fit-content;

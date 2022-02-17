@@ -1,0 +1,134 @@
+@media screen and (min-width: 768px) {
+    main {
+        padding: 2%;
+    }
+    .logo-title {
+        font-size: 24px;
+    }
+    .button-menu {
+      display: none;
+    }
+    .main-logo {
+      flex-basis: 30%;
+    }
+    .main-nav {
+      position: static;
+      margin-right: 0;
+      flex-basis: 70%;
+      height: 100%;
+      align-content:center;
+    }
+    .nav-links {
+      width: 50%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items:center;
+      justify-content: space-around;
+    }
+    .link-item {
+      display: inline-block;
+      margin-top: 0;
+      margin-right: 2rem;
+    }
+    .box-img {
+        height: 40vh;
+    }
+    .novedad-img {
+        height: 57vh;
+    }
+    .div-novedades {
+        grid-template: 65vh / repeat(2, 40vw);
+        align-items: center;
+        justify-content: space-around;
+    }
+    .nproducto {
+        font-size: 1.25em;
+    }
+    .precio {
+        font-size: 1.25em;
+        font-weight: bold;
+    }
+    .div-productos {
+        grid-template: 50vh / repeat(4, 20vw);
+    }
+    .caja-producto {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+    .catalogo {
+        padding: 2.5vh;
+        font-size: 1.2em;
+        margin: 0;
+        margin-top: 10vh;
+    }
+    .nosotros {
+        padding: 0 30vw;
+    }
+    .nosotros h2, .contact h3 {
+        font-size: 1.5em;
+    }
+    .nosotros p, .contact p {
+        font-size: 1.2em;
+    }
+    .catalog-title {
+        padding: 1vh 3vw;
+        margin: 0 auto;
+    }
+    .box {
+        gap: 2vw;
+    }
+    .box-novedades {
+        grid-template: 70vh / repeat(2, 40vw);
+        align-items:center;
+        justify-content: center;
+    }
+    .box-products {
+        grid-template: repeat(2, 35vh) / repeat(4, 15vw);
+        justify-content: space-around;
+    }
+    .catalog-img {
+        height: 30vh;
+    }
+    .titulo {
+        font-size: 1.7em;
+        padding: 1vh 3vw;
+    }
+    .Producto {
+        align-items:center;
+    }
+    .info{
+        width: 50%;
+        font-size: 1.4em;
+        margin: 4vh auto;
+    }
+    .description {
+        padding: 0 2vw;
+        font-size: 1.4em;
+        text-align:justify; 
+    }
+    .description h3 {
+        margin-bottom: 2vh;
+    }
+    .product-img {
+        width: 47.5vw;
+        height: 75vh;
+    }
+    .abajo {
+        font-size: 1.3em;
+    }
+    .abajo {
+        justify-content: center;
+        gap: 3vw;
+    }
+    label {
+        font-size: 1.3em;
+    }
+    .abajo p {
+        order: 1;
+    }
+    .abajo button {
+        order: 0;
+        padding: 1vh 3vw;
+    }
+  }

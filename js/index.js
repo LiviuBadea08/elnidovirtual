@@ -6,7 +6,7 @@ toggleButton.addEventListener("click", () => {
   navWrapper.classList.toggle("show");
 });
 
-newWrapper.addEventListener("click", (e) => {
+navWrapper.addEventListener("click", (e) => {
   if (e.target.id === "nav") {
     navWrapper.classList.remove("show");
     toggleButton.classList.remove("close");
