@@ -1,6 +1,6 @@
 # El Nido Virtual
 
-Blumen Floristeria es un proyecto creado por alumnos de Factoria f5. La idea del proyecto ha residido en la creación de una tiena de videojuegos en un grupo de cinco personas.
+El Nido Virtual es un proyecto creado por alumnos de Factoria f5. La idea del proyecto ha residido en la creación de una tiena de videojuegos en un grupo de cinco personas.
 
 ## Creadores
 
